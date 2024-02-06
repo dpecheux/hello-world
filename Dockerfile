@@ -16,7 +16,7 @@ RUN features.sh
 #COPY --chown=1001:0  interim-fixes /opt/ibm/fixes/
 
 # Add application
-COPY --chown=1001:0  hw-web.war /config/dropins/
+COPY --chown=1001:0  hw-web.war /config/apps/
 
 # This script will add the requested server configurations, apply any interim fixes and populate caches to optimize runtime
 RUN configure.sh
