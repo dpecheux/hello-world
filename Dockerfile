@@ -1,4 +1,4 @@
-FROM icr.io/appcafe/websphere-liberty:kernel-java8-openj9-ubi
+FROM icr.io/appcafe/websphere-liberty:kernel-java11-openj9-ubi
 
 # Default setting for the verbose option. Set it to true to debug the application container image build failures
 ARG VERBOSE=false
